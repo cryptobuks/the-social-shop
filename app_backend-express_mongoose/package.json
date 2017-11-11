@@ -1,0 +1,38 @@
+{
+  "name": "todo-list-node-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.17.2",
+    "ejs": "^2.5.7",
+    "express": "^4.15.4",
+    "jwt-simple": "^0.5.1",
+    "mongoose": "^4.11.7",
+    "morgan": "^1.8.2",
+    "passport": "^0.4.0",
+    "passport-jwt": "^3.0.0",
+    "passport-local": "^1.0.0",
+    "path": "^0.12.7",
+    "uuid": "^3.1.0",
+    "bootstrap": "^3.3.6",
+    "datatables.net": "^1.10.11",
+    "datatables.net-bs": "^1.10.11",
+    "flot-charts": "^0.8.3",
+    "font-awesome": "^4.6.1",
+    "jquery": "^2.2.3",
+    "metismenu": "^2.5.0",
+    "raphael": "^2.2.0",
+    "requirejs": "^2.2.0"
+  },
+  "engines": {
+    "node": "6.11.2"
+  }
+}
